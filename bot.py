@@ -92,7 +92,7 @@ async def discordinvite(ctx):
 # code command
 @client.command()
 async def botcode(ctx):
-	await ctx.send(f'This bot is developed by <@492830898606178314> (Hyper™#0999). It is open source! Feel free to use the code. The code can be found on this Github page: https://github.com/Hyper48/SuperBOT')
+	await ctx.send(f'This bot is developed by <@492830898606178314> (Hyper™#0999). It is open source! Feel free to use the code. The code can be found on this Github page: https://github.com/Hyper48/supertron9000')
 
 
 
