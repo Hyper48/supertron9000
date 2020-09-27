@@ -8,6 +8,11 @@ import json
 client = commands.Bot(command_prefix = 's!')
 client.remove_command('help')
 
+@client.event
+async def on_ready():
+	await client.change_presence(status=discord.Status.online, activity=discord.Game('Developer: Hyper™#0999'))
+	print ('Bot is ready.')
+
 
 @client.command(pass_context=True)
 async def help(ctx):
